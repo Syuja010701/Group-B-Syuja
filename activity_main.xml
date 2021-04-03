@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#EB5757"
+    android:weightSum="1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo">
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="50dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/buy1get1">
+
+            </ImageView>
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/buy1get1">
+
+            </ImageView>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/buy1get1">
+
+            </ImageView>
+
+
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/Pesan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#EB5757"
+            android:src="@drawable/order"
+            android:paddingTop="50dp">
+
+        </ImageButton>
+
+        <Button
+            android:id="@+id/tombol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Order Now"
+            android:verticalScrollbarPosition="defaultPosition"
+            app:backgroundTint="#000000" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/wa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/wa"
+                android:backgroundTint="#EB5757">
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/ig"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ig"
+                android:backgroundTint="#EB5757">
+            </ImageButton>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

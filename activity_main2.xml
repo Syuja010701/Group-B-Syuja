@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Order"
+    android:background="#EB5757">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+      <HorizontalScrollView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal">
+
+              <ImageView
+                  android:layout_width="200dp"
+                  android:layout_height="200dp"
+                  android:src="@drawable/menu1"></ImageView>
+
+              <ImageView
+                  android:layout_width="200dp"
+                  android:layout_height="200dp"
+                  android:src="@drawable/menu2"></ImageView>
+
+              <ImageView
+                  android:layout_width="200dp"
+                  android:layout_height="200dp"
+                  android:src="@drawable/menu3"></ImageView>
+
+              <ImageView
+                  android:layout_width="200dp"
+                  android:layout_height="match_parent"
+                  android:src="@drawable/menu4"></ImageView>
+          </LinearLayout>
+      </HorizontalScrollView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="#ffffff"
+            android:text="Pilih Makaroni yang kamu inginkan :"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#000000">
+
+        </TextView>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4F4F4F">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Makaroni Kering - 8000"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:id="@+id/menu1">
+                </CheckBox>
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Makaroni Sprial - 8000"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:id="@+id/menu2">
+                </CheckBox>
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Makaroni Basah - 7000"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:id="@+id/menu3">
+                </CheckBox>
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Makaroni Campur - 8000"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:id="@+id/menu4">
+                </CheckBox>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pilih Rasa yang kamu inginkan :"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:background="#ffffff">
+
+                </TextView>
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Original"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:id="@+id/rasa1">
+                </CheckBox>
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pedas Keju"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:id="@+id/rasa2">
+                </CheckBox>
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Keju Manis"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:id="@+id/rasa3">
+                </CheckBox>
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Balado"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:id="@+id/rasa4">
+                </CheckBox>
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="BBQ"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:id="@+id/rasa5">
+                </CheckBox>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Metode Pembayaran :"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:background="#ffffff">
+
+                </TextView>
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Traanfer Bank Bri"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:id="@+id/bri">
+                </CheckBox>
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Go Pay"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:id="@+id/gopay">
+                </CheckBox>
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="OVO"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:id="@+id/ovo">
+                </CheckBox>
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#55E948"
+                    android:text="Pesan"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:id="@+id/kirim">
+                </Button>
+
+                <TextView
+                    android:id="@+id/tampil"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Harap Cek Kembali Pesannan Anda :"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff">
+
+                </TextView>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#55E948"
+                    android:text="Bayar"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:id="@+id/bayar"
+                    android:hint="Datapesan">
+                </Button>
+
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingTop="30dp">
+
+            <ImageButton
+                android:id="@+id/wa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#EB5757"
+                android:src="@drawable/wa"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/ig"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#EB5757"
+                android:src="@drawable/ig"></ImageButton>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
